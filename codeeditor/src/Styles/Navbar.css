@@ -1,0 +1,22 @@
+.navbar {
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	padding-left: 20px;
+	height: 50px;
+	text-align: center;
+	color: #0e1b7d;
+	background-color: #74eba1;
+	
+}
+
+#lang{
+	width: 10rem;
+	outline: none;
+}
+
+#lang::content {
+	background-color: #74eba1;
+	cursor: pointer;
+}
+
