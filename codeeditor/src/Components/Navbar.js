@@ -23,7 +23,7 @@ const Navbar = ({ userLang, setUserLang, userTheme,
 			<Select options={themes} value={userTheme}
 				onChange={(e) => setUserTheme(e.value)}
 				placeholder={userTheme} />
-			<div>Kishlay Kumar 202010067 <br/>Ashish Kumar 202010058</div>	
+			<div>kishlay455@gmail.com </div>	
 		</div>
 	)
 }
