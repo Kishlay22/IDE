@@ -38,7 +38,7 @@ function App() {
         }
  
         // Post request to compile endpoint
-        Axios.post(`https://codekishlay.netlify.app/`, {
+        Axios.post(`https://codekishlay.onrender.com`, {
             code: userCode,
             language: userLang,
             input: userInput
