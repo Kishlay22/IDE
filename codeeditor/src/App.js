@@ -38,7 +38,7 @@ function App() {
         }
  
         // Post request to compile endpoint
-        Axios.post(`https://codekishlay.onrender.com`, {
+        Axios.post(`https://codekishlay.onrender.com/compile`, {
             code: userCode,
             language: userLang,
             input: userInput
